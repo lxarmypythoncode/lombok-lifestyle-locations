@@ -21,6 +21,38 @@ const vehicles = [
     type: "car"
   },
   {
+    name: "Toyota Innova",
+    image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2",
+    price: 60,
+    capacity: 8,
+    contact: "6281234567890",
+    type: "car"
+  },
+  {
+    name: "Suzuki Ertiga",
+    image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf",
+    price: 45,
+    capacity: 7,
+    contact: "6281234567890",
+    type: "car"
+  },
+  {
+    name: "Toyota Fortuner",
+    image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2",
+    price: 85,
+    capacity: 7,
+    contact: "6281234567890",
+    type: "car"
+  },
+  {
+    name: "Mitsubishi Xpander",
+    image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf",
+    price: 55,
+    capacity: 7,
+    contact: "6281234567890",
+    type: "car"
+  },
+  {
     name: "Speed Boat",
     image: "https://images.unsplash.com/photo-1472396961693-142e6e269027",
     price: 150,
@@ -36,6 +68,38 @@ const vehicles = [
     contact: "6281234567890",
     type: "boat"
   },
+  {
+    name: "Luxury Yacht",
+    image: "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a",
+    price: 500,
+    capacity: 12,
+    contact: "6281234567890",
+    type: "boat"
+  },
+  {
+    name: "Glass Bottom Boat",
+    image: "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13",
+    price: 200,
+    capacity: 8,
+    contact: "6281234567890",
+    type: "boat"
+  },
+  {
+    name: "Party Boat",
+    image: "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a",
+    price: 350,
+    capacity: 20,
+    contact: "6281234567890",
+    type: "boat"
+  },
+  {
+    name: "Snorkel Tour Boat",
+    image: "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13",
+    price: 180,
+    capacity: 10,
+    contact: "6281234567890",
+    type: "boat"
+  }
 ];
 
 const VehicleGrid = () => {

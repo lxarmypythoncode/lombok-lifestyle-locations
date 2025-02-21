@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Calendar, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -43,11 +42,8 @@ const Bookings = () => {
     <section className="py-20 bg-sand-50" id="bookings">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <span className="inline-block px-4 py-1.5 bg-ocean-50 text-ocean-700 rounded-full text-sm font-medium mb-4">
-            Book Now
-          </span>
-          <h2 className="text-3xl md:text-4xl font-bold text-sand-900 mb-4">
-            Schedule Your Trip
+          <h2 className="text-3xl md:text-4xl font-bold text-sand-900 mb-4 font-playfair">
+            Admin Contact: 087851971066
           </h2>
           <p className="text-sand-600 max-w-2xl mx-auto">
             Select your preferred date and driver to schedule your journey.
